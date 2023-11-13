@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weight of obj in diff planets</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="width:90%" background="https://raw.githubusercontent.com/Asabeneh/30-Days-Of-JavaScript/master/24_Day_Project_solar_system/24_day_starter/images/galaxy.gif">
+    <!--<img class = 'background' src="https://raw.githubusercontent.com/Asabeneh/30-Days-Of-JavaScript/master/24_Day_Project_solar_system/24_day_starter/images/galaxy.gif" alt = 'background'>-->
+    <h1 class = 'header'>Calculate a weight of an object on a planet</h1>
+    <div>
+        <input type="text" placeholder="mass in kilograms" class="mass">
+        <select id = 'options'>
+            <option>--select planet--</option>
+            <option>Earth</option>
+            <option>Jupiter</option>
+            <option>Mars</option>
+            <option>Mercury</option>
+            <option>Moon</option>
+            <option>Neptune</option>
+            <option>Pluto</option>
+            <option>Saturn</option>
+            <option>Uranus</option>
+            <option>Venus</option>
+        </select>
+        <button onclick="weight_show()" id="button_weight">Calculate weight</button>
+    </div>
+    <div class="image_div">
+        <img class='image' src="https://raw.githubusercontent.com/Asabeneh/30-Days-Of-JavaScript/master/24_Day_Project_solar_system/24_day_starter/images/earth.png">
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
