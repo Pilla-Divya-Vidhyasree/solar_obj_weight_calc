@@ -9,7 +9,7 @@
 <body style="width:90%" background="https://raw.githubusercontent.com/Asabeneh/30-Days-Of-JavaScript/master/24_Day_Project_solar_system/24_day_starter/images/galaxy.gif">
     <!--<img class = 'background' src="https://raw.githubusercontent.com/Asabeneh/30-Days-Of-JavaScript/master/24_Day_Project_solar_system/24_day_starter/images/galaxy.gif" alt = 'background'>-->
     <h1 class = 'header'>Calculate a weight of an object on a planet</h1>
-    <div>
+    <div class = 'data'>
         <input type="text" placeholder="mass in kilograms" class="mass">
         <select id = 'options'>
             <option>--select planet--</option>
@@ -26,8 +26,10 @@
         </select>
         <button onclick="weight_show()" id="button_weight">Calculate weight</button>
     </div>
+    <div id = 'invalidData'></div>
     <div class="image_div">
         <img class='image' src="https://raw.githubusercontent.com/Asabeneh/30-Days-Of-JavaScript/master/24_Day_Project_solar_system/24_day_starter/images/earth.png">
+        <div  class = 'displayData'></div>
     </div>
 </body>
 <script src="script.js"></script>
